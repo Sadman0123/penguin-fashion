@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- First navbar -->
+<!-- Main navigation container -->
+<nav
+  class="py-5 flex justify-between">
+  <div class="flex w-full flex-wrap items-center justify-between px-3">
+    <div class="mx-2">
+      <img src="icons/logo.png" alt="" class="w-60 sm:mx-10">
+    </div>
+    <!-- Hamburger button for mobile view -->
+    <button
+      class="block border-0 bg-transparent px-2 text-neutral-300 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+      type="button"
+      data-te-collapse-init
+      data-te-target="#navbarSupportedContent9"
+      aria-controls="navbarSupportedContent9"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <!-- Hamburger icon -->
+      <span class="[&>svg]:w-7">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="h-7 w-7">
+          <path
+            fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+            clip-rule="evenodd" />
+        </svg>
+      </span>
+    </button>
+
+    <!-- Collapsible navbar container -->
+    <div
+      class="!visible mt-2 hidden basis-[100%] lg:mt-0 lg:!flex lg:basis-auto mx-16"
+      id="navbarSupportedContent9"
+      data-te-collapse-item>
+      <!-- Left links -->
+      <ul
+        class="list-style-none mr-auto flex flex-col pl-0 lg:mt-1 lg:flex-row"
+        data-te-navbar-nav-ref>
+        <!-- Home link -->
+        <li
+          class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-1"
+          data-te-nav-item-ref>
+          <a
+            class="text-neutral-300 transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+            aria-current="page"
+            href="#"
+            data-te-nav-link-ref
+            >Home</a
+          >
+        </li>
+        <!-- Features link -->
+        <li
+          class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1"
+          data-te-nav-item-ref>
+          <a
+            class="p-0 text-neutral-300 transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+            href="#"
+            data-te-nav-link-ref
+            >Features</a
+          >
+        </li>
+        <!-- Pricing link -->
+        <li
+          class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1"
+          data-te-nav-item-ref>
+          <a
+            class="p-0 text-neutral-300 transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+            href="#"
+            data-te-nav-link-ref
+            >Pricing</a
+          >
+        </li>
+        <!-- About link -->
+        <li
+          class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1"
+          data-te-nav-item-ref>
+          <a
+            class="p-0 text-neutral-300 transition duration-200 hover:text-neutral-200 hover:ease-in-out focus:text-neutral-200 disabled:text-black/30 motion-reduce:transition-none lg:px-2 [&.active]:text-black/90 [&.active]:text-neutral-200"
+            href="#"
+            data-te-nav-link-ref
+            >About</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <header class="bg-amber-50 flex flex-col-reverse sm:flex-row">
+      <div class="my-20 sm:mx-20 sm:my-40">
+        <h1 class="font-bold text-5xl text-center">
+          <span class="text-yellow-500">BE THE PENGUINS </span><br /><span
+            >OF WINTER</span
+          >
+        </h1>
+        <br />
+        <p class="text-center">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+        <br />
+        <button
+          class="bg-blue-100 flex font-bold pr-4 pl-2 py-2 bg-green-500 text-white rounded-md m-auto"
+        >
+          <img src="icons/shopping-cart 1.png" class="w-6 my-1" />
+          <h1 class="my-1">Buy Now</h1>
+        </button>
+      </div>
+      <div>
+        <img src="images/model.png" alt="" class="pt-10 sm:mt-0" />
+      </div>
+    </header>
+    <h1 class="text-4xl font-bold mx-20 py-10">Women Jacket</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-3 mx-[5%]">
+      <div class="w-full rounded overflow-hidden shadow-lg">
+        <img
+          class="w-60 m-auto my-10"
+          src="images/jacket-1.png"
+          alt="Sunset in the mountains"
+        />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Yellow Coat Jacket</div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <span class="flex justify-between">
+            <h1 class="font-medium text-2xl my-2">$234</h1>
+            <button
+              class="bg-blue-100 flex font-bold pr-4 pl-2 py-2 bg-green-500 text-white rounded-md"
+            >
+              <img src="icons/shopping-cart 1.png" class="w-6 my-1" />
+              <h1 class="my-1">Buy Now</h1>
+            </button></span
+          >
+        </div>
+      </div>
+      <div class="rounded overflow-hidden shadow-lg">
+        <img
+          class="w-60 m-auto my-10"
+          src="images/jacket-2.png"
+          alt="Sunset in the mountains"
+        />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Yellow Coat Jacket</div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <span class="flex justify-between">
+            <h1 class="font-medium text-2xl my-2">$234</h1>
+            <button
+              class="bg-blue-100 flex font-bold pr-4 pl-2 py-2 bg-green-500 text-white rounded-md ml-28"
+            >
+              <img src="icons/shopping-cart 1.png" class="w-6 my-1" />
+              <h1 class="my-1">Buy Now</h1>
+            </button></span
+          >
+        </div>
+      </div>
+      <div class="rounded overflow-hidden shadow-lg">
+        <img
+          class="w-60 m-auto my-10"
+          src="images/jacket-3.png"
+          alt="Sunset in the mountains"
+        />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Yellow Coat Jacket</div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <span class="flex justify-between">
+            <h1 class="font-medium text-2xl my-2">$234</h1>
+            <button
+              class="bg-blue-100 flex font-bold pr-4 pl-2 py-2 bg-green-500 text-white rounded-md ml-28"
+            >
+              <img src="icons/shopping-cart 1.png" class="w-6 my-1" />
+              <h1 class="my-1">Buy Now</h1>
+            </button></span
+          >
+        </div>
+      </div>
+    </div>
+    <h1 class="text-4xl font-bold mx-20 py-10">Man Jacket</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-3 mx-[5%]">
+      <div class="rounded overflow-hidden shadow-lg">
+        <img
+          class="w-60 m-auto my-10"
+          src="images/jacket-4.png"
+          alt="Sunset in the mountains"
+        />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Yellow Coat Jacket</div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <span class="flex justify-between">
+            <h1 class="font-medium text-2xl my-2">$234</h1>
+            <button
+              class="bg-blue-100 flex font-bold pr-4 pl-2 py-2 bg-green-500 text-white rounded-md ml-28"
+            >
+              <img src="icons/shopping-cart 1.png" class="w-6 my-1" />
+              <h1 class="my-1">Buy Now</h1>
+            </button></span
+          >
+        </div>
+      </div>
+      <div class="rounded overflow-hidden shadow-lg">
+        <img
+          class="w-60 m-auto my-10"
+          src="images/jacket-5.png"
+          alt="Sunset in the mountains"
+        />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Yellow Coat Jacket</div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <span class="flex justify-between">
+            <h1 class="font-medium text-2xl my-2">$234</h1>
+            <button
+              class="bg-blue-100 flex font-bold pr-4 pl-2 py-2 bg-green-500 text-white rounded-md ml-28"
+            >
+              <img src="icons/shopping-cart 1.png" class="w-6 my-1" />
+              <h1 class="my-1">Buy Now</h1>
+            </button></span
+          >
+        </div>
+      </div>
+      <div class="rounded overflow-hidden shadow-lg">
+        <img
+          class="w-60 m-auto my-10"
+          src="images/jacket-6.png"
+          alt="Sunset in the mountains"
+        />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Yellow Coat Jacket</div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <span class="flex justify-between">
+            <h1 class="font-medium text-2xl my-2">$234</h1>
+            <button
+              class="bg-blue-100 flex font-bold pr-4 pl-2 py-2 bg-green-500 text-white rounded-md ml-28"
+            >
+              <img src="icons/shopping-cart 1.png" class="w-6 my-1" />
+              <h1 class="my-1">Buy Now</h1>
+            </button></span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-between flex-col-reverse sm:mx-16 sm:my-10 sm:flex sm:justify-between sm:flex-row">
+      <div class="sm:w-[45%] mx-2">
+        <div class="shadow-lg rounded-md flex items-center w-[100%] my-10">
+          <div><img src="icons/house.png" alt="" class="w-20" /></div>
+          <div class="ml-4">
+            <h1 class="font-bold">Find the Perfect Fit</h1>
+            <p>
+              Everybody is different, which is why we offer styles for every
+              body.
+            </p>
+          </div>
+        </div>
+        <div class="shadow-lg rounded-md flex items-center w-[100%] my-10">
+          <div><img src="icons/box.png" alt="" class="w-20" /></div>
+          <div class="ml-4">
+            <h1 class="font-bold">Find the Perfect Fit</h1>
+            <p>
+              Everybody is different, which is why we offer styles for every
+              body.
+            </p>
+          </div>
+        </div>
+        <div class="shadow-lg rounded-md flex items-center w-[100%] my-10">
+          <div><img src="icons/question.png" alt="" class="w-20" /></div>
+          <div class="ml-4">
+            <h1 class="font-bold">Find the Perfect Fit</h1>
+            <p>
+              Everybody is different, which is why we offer styles for every
+              body.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sm:w-[45%] w-80 mx-auto my-10">
+        <img src="images/shopping.png" alt="" class="w-[100%]"/>
+      </div>
+    </div>
+  </body>
+</html>
